@@ -19,6 +19,7 @@ c = int(input("How many numbers would you like?\n"))
 ps=[]
 for i in range (0, a):
   ps.append(random.choice(letters))
+  # ps+=random.choice(letters)
 for i in range (0, b):
   ps.append(random.choice(numbers))
 for i in range (0, c):
